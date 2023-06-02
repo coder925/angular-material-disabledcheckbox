@@ -1,0 +1,23 @@
+<h1>DisableCheckboxApp</h1>
+
+<form>
+  <fieldset disabled>
+    <legend>Disabled fieldset</legend>
+
+    <input type="checkbox" id="checkbox1" checked>
+    <label for="checkbox1">Standard checkbox</label><br>
+
+    <mat-checkbox [checked]="true">Material checkbox</mat-checkbox>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Enabled fieldset</legend>
+
+    <input type="checkbox" id="monster" name="monster" checked>
+    <label for="monster">Standard checkbox</label><br>
+
+    <mat-checkbox [checked]="true">Material checkbox</mat-checkbox>
+
+  </fieldset>
+</form>
